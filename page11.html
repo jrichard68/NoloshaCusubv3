@@ -21,7 +21,160 @@
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
+  <!-- Bootstrap -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.0/css/bootstrap-datepicker3.min.css" rel="stylesheet">
   
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <link href="vendor.css" rel="stylesheet">
+
+<style type="text/css">
+body{
+  background-color: transparent;
+}
+
+.jf-form{
+  margin-top: 28px;
+}
+
+.jf-form > form{
+  margin-bottom: 32px;
+}
+
+.jf-option-box{
+  display: none;
+  margin-left: 8px;
+}
+
+.jf-hide{
+  display: none;
+}
+
+.jf-disabled {
+    background-color: #eeeeee;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+/* 
+overwrite bootstrap default margin-left, because the <label> doesn't contain the <input> element.
+*/
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+  position: absolute;
+  margin-top: 4px \9;
+  margin-left: 0px;
+}
+
+div.form-group{
+  padding: 8px 8px 4px 8px;
+}
+
+.mainDescription{
+  margin-bottom: 10px;
+}
+
+p.description{
+  margin:0px;
+}
+
+.responsive img{
+  width: 100%;
+}
+
+p.error, p.validation-error{
+  padding: 5px;
+}
+
+p.error{
+  margin-top: 10px;
+  color:#a94442;
+}
+
+p.server-error{
+  font-weight: bold;
+}
+
+div.thumbnail{
+  position: relative;
+  text-align: center;
+}
+
+div.thumbnail.selected p{
+  color: #ffffff;
+}
+
+div.thumbnail .glyphicon-ok-circle{
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.jf-copyright{color: #888888; display: inline-block; margin: 16px;display:none;}
+
+.form-group.required .control-label:after {
+    color: #dd0000;
+    content: "*";
+    margin-left: 6px;
+}
+
+.submit .btn.disabled, .submit .btn[disabled]{
+  background: transparent;
+  opacity: 0.75;
+}
+
+/* for image option with span text */
+.checkbox label > span, .radio label > span{
+  display: block;
+}
+
+.form-group.inline .control-label,
+.form-group.col-1 .control-label,
+.form-group.col-2 .control-label,
+.form-group.col-3 .control-label
+{
+  display: block;
+}
+
+.form-group.inline div.radio,
+.form-group.inline div.checkbox{
+  display: inline-block;
+}
+
+.form-group.col-1 div.radio,
+.form-group.col-1 div.checkbox{
+  display: block;
+}
+
+.form-group.col-2 div.radio,
+.form-group.col-2 div.checkbox{
+  display: inline-flex;
+  width: 48%;
+}
+
+.form-group.col-3 div.radio,
+.form-group.col-3 div.checkbox{
+  display: inline-flex;
+  width: 30%;
+}
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+</style>
 </head>
 <body>
 
@@ -38,7 +191,7 @@
 <!-- /Google Analytics -->
 
 
-<section class="menu cid-qwn5fP7YLg" once="menu" id="menu1-39" data-rv-view="120">
+<section class="menu cid-qwn5fP7YLg" once="menu" id="menu1-39" data-rv-view="8717">
 
     
 
@@ -69,7 +222,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.co/i">how to build your own website for free</a></section><section class="mbr-section content4 cid-qwn5jvf8Ui" id="content4-3a" data-rv-view="122">
+<section class="engine"><a href="https://mobirise.co/h">how to make your own website</a></section><section class="mbr-section content4 cid-qwn5jvf8Ui" id="content4-3a" data-rv-view="8719">
 
     
 
@@ -84,7 +237,7 @@
     </div>
 </section>
 
-<section class="mbr-section article content1 cid-qwn5hSjrfP" id="content1-3b" data-rv-view="124">
+<section class="mbr-section article content1 cid-qwn5hSjrfP" id="content1-3b" data-rv-view="8721">
     
      
 
@@ -95,7 +248,7 @@
     </div>
 </section>
 
-<section class="mbr-section article content12 cid-qwncrRiEZD" id="content12-4e" data-rv-view="125">
+<section class="mbr-section article content12 cid-qwncrRiEZD" id="content12-4e" data-rv-view="8722">
      
 
     <div class="container">
@@ -109,7 +262,7 @@
     </div>
 </section>
 
-<section class="mbr-section article content1 cid-qwncNzS1LK" id="content1-4f" data-rv-view="126">
+<section class="mbr-section article content1 cid-qwncNzS1LK" id="content1-4f" data-rv-view="8723">
     
      
 
@@ -120,7 +273,361 @@
     </div>
 </section>
 
-<section class="mbr-section content8 cid-qwn5haW3AS" id="content8-3c" data-rv-view="127">
+<section class="mbr-section content4 cid-qQQ0smAmwW" id="content4-1cb" data-rv-view="8724">
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2">Tijaabada Siddeedaad<div>Ilaah Keliya</div></h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Waxaad doorta jawaabta saxda ah. Saddexda jawaab mid qura ayaa sax ah. Barta oo dhinaca bidix ku taal bal guji.&nbsp;</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="custom-html-1cc" custom-code="true" data-rv-view="5477">
+<!-- ----------------------------------------------- -->
+<div class="container jf-form">
+<form data-licensekey="JF-08T99342FC271390X" name="jqueryform-077e25" id="jqueryform-077e25" action="admin.php" method="post" enctype="multipart/form-data" novalidate="" autocomplete="on">
+<input type="hidden" name="method" value="validateForm">
+<input type="hidden" id="serverValidationFields" name="serverValidationFields" value="">
+
+
+
+<div class="form-group f5 required" data-fid="f5">
+  <label class="control-label" for="f5">1. Anigu waxaan ahay</label>
+
+<div class="radio">
+  	<input id="f5_1" name="f5" type="radio" value="Qof xaqaani ah." data-rule-required="true" data-msg-required="Raalli ahow walaal, laakiin su'aashan lama dhammaystirin.">
+  	<label for="f5_1">
+      Qof xaqaani ah.
+  	</label>
+  </div>
+
+  <div class="radio">
+  	<input id="f5_2" name="f5" type="radio" value="Mid Ilaah u aqbali karo sida uu yahay.">
+  	<label for="f5_2">
+        Mid Ilaah u aqbali karo sida uu yahay.
+  	</label>
+  </div>
+
+  <div class="radio">
+  	<input id="f5_3" name="f5" type="radio" value="Dembiler.">
+  	<label for="f5_3">
+      Dembile.
+  	</label>
+  </div>
+
+  
+</div>
+
+
+
+
+<div class="form-group f7 required" data-fid="f7">
+  <label class="control-label" for="f7">2. Ciise Masiix wuxuu u dhintay sidan</label>
+
+<div class="radio">
+  	<input id="f7_1" name="f7" type="radio" value="Shil oo kaleeto." data-rule-required="true" data-msg-required="Raalli ahow walaal, laakiin su'aashan lama dhammaystirin.">
+  	<label for="f7_1">
+        Shil oo kaleeto.
+  	</label>
+  </div>
+
+  <div class="radio">
+  	<input id="f7_2" name="f7" type="radio" value="Beddelkayaga oo kale.">
+  	<label for="f7_2">
+      Beddelkayaga oo kale.
+  	</label>
+  </div>
+
+  <div class="radio">
+  	<input id="f7_3" name="f7" type="radio" value="Masaal inaynu u kaalmayno dadka kale oo keliya.">
+  	<label for="f7_3">
+      Masaal inaynu u kaalmayno dadka kale oo keliya.
+  	</label>
+  </div>
+
+  
+</div>
+
+
+
+
+<div class="form-group f8 required" data-fid="f8">
+  <label class="control-label" for="f8">3. Dhimashadii Ciise Masiix waxay ahayd</label>
+
+<div class="radio">
+  	<input id="f8_1" name="f8" type="radio" value="Guuldarro." data-rule-required="true" data-msg-required="Raalli ahow walaal, laakiin su'aashan lama dhammaystirin.">
+  	<label for="f8_1">
+      Guuldarro.
+  	</label>
+  </div>
+
+  <div class="radio">
+  	<input id="f8_2" name="f8" type="radio" value="Guul.">
+  	<label for="f8_2">
+      Guul.
+  	</label>
+  </div>
+
+  <div class="radio">
+  	<input id="f8_3" name="f8" type="radio" value="Masiibo inuu ka leexdo oo uu isku dayey.">
+  	<label for="f8_3">
+      Masiibo inuu ka leexdo oo uu isku dayey.
+  	</label>
+  </div>
+
+  
+</div>
+
+
+
+
+<div class="form-group f9 required" data-fid="f9">
+  <label class="control-label" for="f9">4. Dembigayga oo dhan waxaa iga nadiifin karaa</label>
+
+<div class="radio">
+  	<input id="f9_1" name="f9" type="radio" value="ficilladayda wanaagsan." data-rule-required="true" data-msg-required="Raalli ahow walaal, laakiin su'aashan lama dhammaystirin.">
+  	<label for="f9_1">
+      ficilladayda wanaagsan.
+  	</label>
+  </div>
+
+  <div class="radio">
+  	<input id="f9_2" name="f9" type="radio" value="Diintayda.">
+  	<label for="f9_2">
+      Diintayda.
+  	</label>
+  </div>
+
+  <div class="radio">
+  	<input id="f9_3" name="f9" type="radio" value="Dhiigga Ciise Masiix">
+  	<label for="f9_3">
+      Dhiigga Ciise Masiix.
+  	</label>
+  </div>
+
+  
+</div>
+
+
+
+
+<div class="form-group f10 required" data-fid="f10">
+  <label class="control-label" for="f10">5. Haddii aynan hadda aqbalin dhiigga Sayidka Ciise Masiix</label>
+
+<div class="radio">
+  	<input id="f10_1" name="f10" type="radio" value="Nolol wanaagsan baynu ku noolaan karnaa, Ilaah waa ina aqbali karnaa." data-rule-required="true" data-msg-required="Raalli ahow walaal, laakiin su'aashan lama dhammaystirin.">
+  	<label for="f10_1">
+      Nolol wanaagsan baynu ku noolaan karnaa, Ilaah waa ina aqbali karnaa.
+  	</label>
+  </div>
+
+  <div class="radio">
+  	<input id="f10_2" name="f10" type="radio" value="Aakhiro aynu ku heli doonnaa.">
+  	<label for="f10_2">
+        Aakhiro aynu ku heli doonnaa.
+  	</label>
+  </div>
+
+  <div class="radio">
+  	<input id="f10_3" name="f10" type="radio" value="Waynu hallignaan doonnaa weligayba.">
+  	<label for="f10_3">
+      Waynu hallignaan doonnaa weligayba.
+  	</label>
+  </div>
+
+  
+</div>
+
+
+
+
+<div class="form-group f15 required" data-fid="f15">
+  <label class="control-label" for="f15">6. Xaawa iyo Aadan waxay lahaayeen harag ay ka huwadaan. Innaga haragga huwiskeennu waa ayo?</label>
+
+
+<input type="text" class="form-control" id="f15" name="f15" value="" data-rule-required="true" data-msg-required="Raalli ahow walaal, laakiin su'aashan lama dhammaystirin.">
+
+
+  
+</div>
+
+
+
+
+<div class="form-group f16 required" data-fid="f16">
+  <label class="control-label" for="f16">7. Haabiil allabbari la aqbali karo ayuu bixiyey. Innaga allabbarigeennu waa ayo? </label>
+
+
+<input type="text" class="form-control" id="f16" name="f16" value="" data-rule-required="true" data-msg-required="Raalli ahow walaal, laakiin su'aashan lama dhammaystirin.">
+
+
+  
+</div>
+
+
+
+
+<div class="form-group f17 required" data-fid="f17">
+  <label class="control-label" for="f17">8. Waxyaalihii nebi Daa'uud sii sheegay oo dhan yaa kaamilay?</label>
+
+
+<input type="text" class="form-control" id="f17" name="f17" value="" data-rule-required="true" data-msg-required="Raalli ahow walaal, laakiin su'aashan lama dhammaystirin.">
+
+
+  
+</div>
+
+
+
+
+<div class="form-group f20 required" data-fid="f20">
+  <label class="control-label" for="f20">9. Ciise Masiix wuu ka soo sara kacay kuwii dhintay.</label>
+
+<div class="radio">
+  	<input id="f20_1" name="f20" type="radio" value="Run" data-rule-required="true" data-msg-required="Raalli ahow walaal, laakiin su'aashan lama dhammaystirin.">
+  	<label for="f20_1">
+  		Run
+  	</label>
+  </div>
+
+  <div class="radio">
+  	<input id="f20_2" name="f20" type="radio" value="Been">
+  	<label for="f20_2">
+  		Been
+  	</label>
+  </div>
+
+  
+</div>
+
+
+
+
+<div class="form-group f19 required" data-fid="f19">
+  <label class="control-label" for="f19">10. Haddii aan doonayo in uu Ilaah i aqbalo, waa inaan rumaysto Ciise Masiix inuu yahay beddelkaygii oo aan aqbalaa.</label>
+
+<div class="radio">
+  	<input id="f19_1" name="f19" type="radio" value="Run" data-rule-required="true" data-msg-required="Raalli ahow walaal, laakiin su'aashan lama dhammaystirin.">
+  	<label for="f19_1">
+  		Run
+  	</label>
+  </div>
+
+  <div class="radio">
+  	<input id="f19_2" name="f19" type="radio" value="Been">
+  	<label for="f19_2">
+  		Been
+  	</label>
+  </div>
+
+  
+</div>
+
+
+
+
+<div class="form-group f21 required" data-fid="f21">
+  <label class="control-label" for="f21">Magacaaga oo dhan:</label>
+
+
+<input type="text" class="form-control" id="f21" name="f21" value="" data-rule-required="true" data-msg-required="Fadlan magacaa u qor.">
+
+
+  
+</div>
+
+
+
+
+<div class="form-group f22 required" data-fid="f22">
+  <label class="control-label" for="f22">Cinwaanka Iimaylka:</label>
+
+
+<input type="email" class="form-control" id="f22" name="f22" value="" data-rule-email="true" data-rule-required="true" data-msg-required="Fadlan cinwaankaaga iimaylka u qor.">
+
+  
+</div>
+
+
+
+
+<div class="form-group f23 " data-fid="f23">
+  <label class="control-label" for="f23">Magaalada:</label>
+
+
+<input type="text" class="form-control" id="f23" name="f23" value="">
+
+
+  
+</div>
+
+
+
+
+<div class="form-group f24 " data-fid="f24">
+  <label class="control-label" for="f24">Waddanka:</label>
+
+
+<input type="text" class="form-control" id="f24" name="f24" value="">
+
+
+  
+</div>
+
+
+
+
+<div class="form-group f25 " data-fid="f25">
+  <label class="control-label" for="f25">Su'aal ama Ra'yi:</label>
+
+
+<textarea class="form-control" id="f25" name="f25" rows="3"></textarea>
+
+  
+</div>
+
+
+
+<div class="form-group submit f0 " data-fid="f0" style="position: relative;">
+  <label class="control-label sr-only" for="f0" style="display: block;">Submit Button</label>
+
+  <div class="progress" style="display: none; z-index: -1; position: absolute;">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" style="width:100%">
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-primary btn-lg" style="z-index: 1;">
+  		Riix oo dir
+  </button>
+
+</div><div class="clearfix"></div>
+
+<div class="submit">
+  <p class="error bg-warning" style="display:none;">
+    Please check the required fields.  </p>
+</div>
+
+<div class="clearfix"></div>
+
+
+</form>
+
+</div>
+
+<div class="container jf-thankyou" style="display:none;" data-redirect="" data-seconds="10">
+  <h3>Jawaabtaada waa la helay!
+
+Waad ku mahadsan tahay farriintaada.  Degdeg waxaannu ku soo jawaabi doonaa.</h3>
+</div>
+<!-- ----------------------------------------------- --></div>
+
+<section class="mbr-section content8 cid-qwn5haW3AS" id="content8-3c" data-rv-view="8726">
 
     
 
@@ -134,7 +641,7 @@
     </div>
 </section>
 
-<section once="" class="cid-qwn65Mq25K" id="footer6-3d" data-rv-view="128">
+<section once="" class="cid-qwn65Mq25K" id="footer6-3d" data-rv-view="8727">
 
     
 
@@ -162,7 +669,27 @@
   <script src="assets/viewport-checker/jquery.viewportchecker.js"></script>
   <script src="assets/theme/js/script.js"></script>
   
-  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.0/js/bootstrap-datepicker.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/additional-methods.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+<script src="vendor.js" ></script>
+
+<script src="jqueryform.com.min.js?ver=v2.1.1&id=jqueryform-077e25" ></script>
+
+
+
+
+<script type="text/javascript">
+
+	// start jqueryform initialization
+	// --------------------------------
+	JF.init('#jqueryform-077e25');
+
+</script>
+
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbri-down mbr-iconfont"></i></a></div>
     <input name="animation" type="hidden">
   </body>
