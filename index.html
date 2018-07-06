@@ -21,7 +21,12 @@
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
-  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -47,19 +52,19 @@
     <div class="container align-center">
         <div class="row justify-content-md-center">
             <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1" data-toggle="tooltip" data-placement="top" title="New Life">
                     Nolosha Cusub</h1>
                 
                 <p class="mbr-text pb-3 mbr-fonts-style display-5">War wanaagsan ayuu Eebbe dadka ugu bishaareeyaa</p>
-                <div class="mbr-section-btn"><a class="btn btn-md btn-white-outline display-4" href="page1.html">Qoraal</a>
-                    <a class="btn btn-md btn-white-outline display-4" href="page42.html">Maqal/Muuqaal</a>  <a class="btn btn-md btn-white-outline display-4" href="page97.html">Kitaabka Quduuska Ah</a> <a class="btn btn-md btn-white-outline display-4" href="page81.html">Jadwalka Idaacadda</a> <a class="btn btn-md btn-white-outline display-4" href="page82.html">La Xiriir</a> <a class="btn btn-md btn-white-outline display-4" href="page83.html">Nagala Soo Xiriir</a></div>
+                <div class="mbr-section-btn"><a class="btn btn-md btn-white-outline tooltipstered display-4" href="page1.html" data-toggle="tooltip" data-placement="bottom" title="Literature">Qoraal</a>
+                    <a class="btn btn-md btn-white-outline display-4" href="page42.html" data-toggle="tooltip" data-placement="bottom" title="Audio/Visual">Maqal/Muuqaal</a>  <a class="btn btn-md btn-white-outline display-4" href="page97.html" data-toggle="tooltip" data-placement="bottom" title="Holy Bible">Kitaabka Quduuska Ah</a> <a class="btn btn-md btn-white-outline display-4" href="page81.html" data-toggle="tooltip" data-placement="bottom" title="Broadcast Schedule">Jadwalka Idaacadda</a> <a class="btn btn-md btn-white-outline display-4" href="page82.html" data-toggle="tooltip" data-placement="bottom" title="Links">La Xiriir</a> <a class="btn btn-md btn-white-outline display-4" href="page83.html" data-toggle="tooltip" data-placement="bottom" title="Contact Us">Nagala Soo Xiriir</a></div>
             </div>
         </div>
     </div>
     
 </section>
 
-<section class="engine"><a href="https://mobirise.me/r">bootstrap templates</a></section><section once="" class="cid-qwsYlTZb6s" id="footer7-9f">
+<section class="engine"><a href="https://mobirise.me/s">bootstrap theme</a></section><section once="" class="cid-qwsYlTZb6s" id="footer7-9f">
 
     
 
@@ -117,7 +122,11 @@
   <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
   <script src="assets/theme/js/script.js"></script>
   
-  
+  <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i></i></a></div>
     <input name="animation" type="hidden">
   </body>
