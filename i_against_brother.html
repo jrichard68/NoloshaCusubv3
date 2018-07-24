@@ -21,7 +21,12 @@
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
-  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -65,7 +70,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobiri.se/h">create a web page for free</a></section><section class="mbr-section content5 cid-qxXNHhXa37 mbr-parallax-background" id="content5-14b">
+<section class="engine"><a href="https://mobiri.se/r">free bootstrap template</a></section><section class="mbr-section content5 cid-qxXNHhXa37 mbr-parallax-background" id="content5-14b">
 
     
 
@@ -172,8 +177,8 @@
     <div class="container">
         <div class="media-container-row title">
             <div class="col-12 col-md-8">
-                <div class="mbr-section-btn align-center"><a class="btn btn-primary tooltipstered display-4" href="index.html" data-toggle="tooltip" data-placement="bottom">Hoyga</a>
-                    <a class="btn btn-primary tooltipstered display-4" href="links_default.html" data-toggle="tooltip" data-placement="bottom">La Xiriir</a></div>
+                <div class="mbr-section-btn align-center"><a class="btn btn-primary tooltipstered display-4" href="index.html" data-toggle="tooltip" data-placement="bottom" title="Home">Hoyga</a>
+                    <a class="btn btn-primary tooltipstered display-4" href="links_default.html" data-toggle="tooltip" data-placement="bottom" title="Links">La Xiriir</a></div>
             </div>
         </div>
     </div>
@@ -208,7 +213,12 @@
   <script src="assets/dropdown/js/script.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
   
-  
+  <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i></i></a></div>
     <input name="animation" type="hidden">
   </body>
